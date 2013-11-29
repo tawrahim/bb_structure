@@ -1,0 +1,37 @@
+#outer {
+    position: relative;
+}
+
+#header {
+   border: 1px solid red;
+   height: 110px;
+   margin: 0;
+}
+
+#leftnav {
+   border: 4px solid black;
+   left: 50px;
+   width: 30px;
+   height: 70px;
+   position: absolute;
+}
+
+#maincontent {
+   border: 4px solid black;
+   width: 500px;
+   height: 70px;
+   position: absolute;
+}
+
+#rightnav {
+   border: 4px solid black;
+   right: 50px;
+   width: 30px;
+   height: 70px;
+   float: right;
+   position: absolute;
+}
+
+#statusbar {
+    border: 5px solid red;
+}
